@@ -32,15 +32,15 @@
       origin: 'bottom'
     })
 
-    sr.reveal('.clients li', {
-      delay: 300,
-      duration: 1000,
-      rotate: {
-        y: 50
-      },
-      easing: 'cubic-bezier(0.215, 0.61, 0.355, 1)',
-      interval: 150
-    })
+    // sr.reveal('.clients li', {
+    //   delay: 300,
+    //   duration: 1000,
+    //   rotate: {
+    //     y: 50
+    //   },
+    //   easing: 'cubic-bezier(0.215, 0.61, 0.355, 1)',
+    //   interval: 150
+    // })
 
     sr.reveal('.feature, .tabs-links li, .testimonial, .pricing-table, .pricing-faqs, .cta-inner', {
       duration: 600,
@@ -95,3 +95,19 @@
     }
   }
 }())
+
+$('.slick-clients').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 3
+      }
+    }
+  ]
+});
