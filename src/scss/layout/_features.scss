@@ -1,5 +1,5 @@
 .features-header {
-	margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .features-wrap {
@@ -8,11 +8,11 @@
     justify-content: center;
     margin-right: -12px;
     margin-left: -12px;
-	margin-top: -12px;
+  margin-top: -12px;
 
-	&:last-of-type {
-		margin-bottom: -12px;
-	}
+  &:last-of-type {
+    margin-bottom: -12px;
+  }
 
     &:not(:last-of-type) {
         margin-bottom: 12px;
@@ -31,7 +31,7 @@
     height: 100%;
     background: color(bg, 1);
     padding: 40px 24px;
-	@include shadow;
+    @include shadow;
 }
 
 .feature-icon {
@@ -43,13 +43,13 @@
 
     .features {
 
-		.section-paragraph {
+    .section-paragraph {
             padding-left: 72px;
             padding-right: 72px;
         }
     }
 
-	.features-header {
-		margin-bottom: 64px;
-	}
+  .features-header {
+    margin-bottom: 64px;
+  }
 }

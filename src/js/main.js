@@ -96,10 +96,19 @@
   }
 }())
 
+var options = {
+  strings: ["aplicaciones ^2000", "sistemas ^2000", "páginas web ^2000"],
+  typeSpeed: 40,
+  loop: true,
+  showCursor: false
+}
+
+var typed = new Typed(".typed", options);
+
 $('.slick-clients').slick({
   infinite: true,
   slidesToShow: 5,
-  slidesToScroll: 1,
+  swipeToSlide: true,
   autoplay: true,
   autoplaySpeed: 2000,
   responsive: [
