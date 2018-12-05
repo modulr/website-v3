@@ -97,7 +97,7 @@
 }())
 
 var options = {
-  strings: ["aplicaciones ^2000", "sistemas ^2000", "páginas web ^2000"],
+  strings: ["Tecnologia ^2000", "Marketing Digital ^2000",  "aplicaciones ^2000", "sistemas ^2000", "páginas web ^2000"],
   typeSpeed: 40,
   loop: true,
   showCursor: false
