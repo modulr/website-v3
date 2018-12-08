@@ -39,7 +39,7 @@
 .hero-copy {
   padding-bottom: 48px;
   .hero-title-content {
-    height: 130px;
+    height: 160px;
   }
 }
 
@@ -116,6 +116,10 @@
       width: 100%;
       max-width: 280px;
     }
+  }
+
+  .hero-title-content {
+    height: 200px !important;
   }
 
   .hero-illustration {
