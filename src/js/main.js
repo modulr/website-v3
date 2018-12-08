@@ -97,7 +97,7 @@
 }())
 
 var options = {
-  strings: ["Aplicaciones ^200",  "Sistemas a la medida ^200", "Marketing Digital ^200", "Páginas Web ^200"],
+  strings: ["Aplicaciones ^200",  "Sistemas ^200", "Marketing Digital ^200", "Páginas Web ^200"],
   typeSpeed: 30,
   loop: true,
   showCursor: false
