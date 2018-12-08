@@ -97,8 +97,8 @@
 }())
 
 var options = {
-  strings: ["Tecnologia ^2000", "Marketing Digital ^2000",  "aplicaciones ^2000", "sistemas ^2000", "páginas web ^2000"],
-  typeSpeed: 40,
+  strings: ["Aplicaciones ^200",  "Sistemas a la medida ^200", "Marketing Digital ^200", "Páginas Web ^200"],
+  typeSpeed: 30,
   loop: true,
   showCursor: false
 }

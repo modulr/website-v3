@@ -38,6 +38,9 @@
 
 .hero-copy {
   padding-bottom: 48px;
+  .hero-title-content {
+    height: 130px;
+  }
 }
 
 .hero-illustration {
@@ -100,8 +103,8 @@
 
     .hero-copy {
         padding-right: 80px;
-    min-width: 540px;
-    width: 540px;
+    min-width: 640px;
+    width: 640px;
     }
 }
 
